@@ -1,0 +1,19 @@
+# Raw and derived data files are reproducible from public sources — keep the repo light
+data/raw/**
+!data/raw/**/
+!data/raw/**/.gitkeep
+!data/raw/**/README.md
+!data/raw/**/manifest.csv
+data/processed/**
+!data/processed/**/
+!data/processed/**/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
