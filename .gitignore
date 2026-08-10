@@ -8,6 +8,9 @@ data/processed/**
 !data/processed/**/
 !data/processed/**/.gitkeep
 
+# Secrets
+.env
+
 # Python
 __pycache__/
 *.pyc
